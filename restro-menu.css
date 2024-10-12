@@ -1,0 +1,204 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+main {
+    background-color: #eeeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main  #product-list{
+    width: 650px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    position: relative;
+    right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.productbox{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.05),
+    inset -2px -5px 10px rgb(255, 255, 255),
+    15px 15px 10px rgba(0, 0, 0, 0.05),
+    15px 10px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    backdrop-filter: blur(10px) brightness(90%);
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+#product-image{
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#product-list {
+    margin-top: 10px;
+}
+
+.product {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.product img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #434242;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    overflow: hidden;
+}

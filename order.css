@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.containerbelt {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbelt {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.navbelt .logo {
+    background-image: url("partner.jpg");
+    background-size: cover;
+    font-size: 39px;
+    border-radius: 50%;
+}
+
+.navbelt a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbelt .icon {
+    margin-right: 10px;
+}
+
+.navbelt .text {
+    font-size: 16px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.orders {
+    background-color: #f7f7f7;
+    color: #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-detail {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.order-detail h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.map {
+    background-color: #f7f7f7;
+    color: #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+iframe {
+    height: 500px;
+    width: 100%;
+    filter: invert(100%);
+}
+
+
+
+
+
+
+footer {
+    background-color: #434242;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}

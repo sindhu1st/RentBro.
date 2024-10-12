@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    min-width: 150px;
+    max-width: 1200px;
+    background-image: url("pexels-photo-2101187.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.web{
+    min-height: 100vh;
+    min-width: 50px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20px;
+}
+
+.car{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(255, 251, 251, 0.05),
+    inset -2px -5px 10px rgba(255,255,255,1),
+    15px 15px 10px rgba(0,0,0,0.05),
+    15px 10px 15px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px) brightness(90%);
+}
+.car #benz{
+    height: 200px;
+    width: 250px;
+}
+.car .board{
+    height: 30px;
+    width: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    top: 195px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 12px grey;
+}
+.car .board #text{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: red;
+}
+.hotel{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(255, 251, 251, 0.05),
+    inset -2px -5px 10px rgba(255,255,255,1),
+    15px 15px 10px rgba(0,0,0,0.05),
+    15px 10px 15px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px) brightness(90%);
+}
+.hotel #benz{
+    height: 200px;
+    width: 250px;
+}
+.hotel .board{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    top: 195px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 12px grey;
+}
+.hotel .board #text{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: red;
+}
+.logbox{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 160px;
+    left: 230px;
+    border-radius: 50%;
+    
+    box-shadow: inset 2px 5px 10px rgba(255, 251, 251, 0.05),
+    inset -2px -5px 10px rgba(255,255,255,1),
+    15px 15px 10px rgba(0,0,0,0.05),
+    15px 10px 15px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px) brightness(90%);
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1px;
+    gap: 15px;
+}
+  
+.content h1 {
+    font-family: Algerian;
+    position: relative;
+    top: 15px;
+    color: red;
+    font-size: 1.5em;
+}
+  
+.content form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+  
+.content form .inputbox {
+    position: relative;
+    width: 225px;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.05),
+    inset -2px -5px 10px rgb(255, 255, 255),
+    15px 15px 10px rgba(129, 126, 126, 0.05),
+    15px 10px 15px rgba(6, 6, 6, 0.5);
+    border-radius: 25px;
+    overflow: hidden;
+}
+  
+.content form .inputbox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 1em;
+    padding: 10px 15px;
+  
+}
+.content form .inputbox input[type="submit"] {
+    cursor: pointer;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 800;
+    
+}
+  
+.content form .inputbox:last-child{
+    width: 120px;
+    background: #f86666;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.05),
+    15px 15px 10px rgba(0,0,0,0.05),
+    15px 10px 15px rgba(0,0,0,0.25);
+    transition: 0.5s;
+}
+  
+.content form .inputbox:last-child:hover {
+    width: 150px;
+    background-color: #ff0000;
+}
+
+
+
+
+.user{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 345px;
+    left: 10px;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(255, 251, 251, 0.05),
+    inset -2px -5px 10px rgba(255,255,255,1),
+    15px 15px 10px rgba(0,0,0,0.05),
+    15px 10px 15px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px) brightness(90%);
+}
+.user #benz{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: -20px;
+    top: 10px;
+}
+.user #user{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 70px;
+    top: 10px;
+}
+.user .board{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    top: 195px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 12px grey;
+}
+.user .board #text{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: red;
+}
+.restro{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 345px;
+    left: 500px;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(255, 251, 251, 0.05),
+    inset -2px -5px 10px rgba(255,255,255,1),
+    15px 15px 10px rgba(0,0,0,0.05),
+    15px 10px 15px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px) brightness(90%);
+}
+.restro #benz{
+    height: 200px;
+    width: 250px;
+}
+.restro .board{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    top: 195px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 12px grey;
+}
+.restro .board #text{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: red;
+}
+

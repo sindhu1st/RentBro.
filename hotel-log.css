@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    min-width: 150px;
+    max-width: 1600px;
+    background-image: url("stars-1845140_1280.jpg");
+    background-size: cover;
+}
+.web{
+    min-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.web .part1{
+    height: 600px;
+    width: 600px;
+}
+
+.web .part1 .sun {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.web .part1 .sun #sunset{
+    width: 100px;
+    height: 100px;
+}
+.web .part1 .sun #sunset .box{
+    width: 60px;
+    height: 20px;
+    background-color: #e5c2c282;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 6px,
+    2px 2px 6px;
+}
+.web .part1 .sun .box #text{
+    position: absolute;
+    left: 3px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #020202;
+}
+
+
+.web .part1 .sun #man{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    left: 350px;
+    top: -190px;
+}
+
+
+
+.web .part1 .earth{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+.web .part1 .earth #model {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+
+
+
+.webpage{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    height: 250px;
+    width: 250px;
+    backdrop-filter: blur(10px) brightness(90%);
+    box-shadow: inset 2px 5px 10px rgba(255, 0, 0, 0.05),
+    inset -2px -5px 10px rgba(255,255,255,1),
+    15px 15px 10px rgba(0,0,0,0.05),
+    15px 10px 15px rgba(0,0,0,0.25);
+    border-radius: 350px;
+}
+
+.web .webpage  h1{
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+.web .webpage form {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.web .webpage form .inputbox {
+    position: relative;
+    top: 10px;
+    width: 180px;
+    height: 30px;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.05),
+    inset -2px -5px 10px rgba(255,255,255,1),
+    15px 15px 10px rgba(0,0,0,0.05),
+    15px 10px 15px rgba(0,0,0,0.25);
+    border-radius: 25px;
+    overflow: hidden;
+}
+  
+.web .webpage form .inputbox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 1em;
+    padding: 10px 25px;
+}
+.web .webpage form  #forgot {
+    position: absolute;
+    top: 140px;
+    left: 90px;
+}
+  
+.web .webpage form .inputbox input[type="submit"] {
+    cursor: pointer;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 800;
+    position: relative;
+    top: -5px;
+    
+}
+  
+.web .webpage form .inputbox:last-child{
+    width: 120px;
+    background: #2f3031;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.05),
+    15px 15px 10px rgba(0,0,0,0.05),
+    15px 10px 15px rgba(0,0,0,0.25);
+    transition: 0.5s;
+}
+  
+.web .webpage form .inputbox:last-child:hover {
+    width: 150px;
+}
+
+
+
+
+
+
+.part2{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    left: 550px;
+    top: 0px;
+}
+.part2 .hotel{
+    position: absolute;
+    top: 370px;
+    left: 50px;
+    height: 200px;
+    width: 200px;
+}
+.part2 .hotel .model{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+.part2 .hotel .model .box{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    background-color: #5e323229;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 6px,
+    2px 2px 6px;
+}
+.part2 .hotel .model .box .text{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    position: relative;
+    top: 3px;
+
+}
+
+.part2 .restro{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    height: 200px;
+    width: 200px;
+}
+.part2 .restro .model{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+.part2 .restro .model .box{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    background-color: #5e323229;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 6px,
+    2px 2px 6px;
+}
+.part2 .restro .model .box .text{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    position: relative;
+    top: 3px;
+
+}
+
+
+
+.part2 .user{
+    position: absolute;
+    top: 240px;
+    left: 390px;
+    height: 200px;
+    width: 200px;
+}
+.part2 .user .model{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+.part2 .user .model .box{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    background-color: #5e323229;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 6px,
+    2px 2px 6px;
+}
+.part2 .user .model .box .text{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    position: relative;
+    top: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
