@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentBro</title>
+    <link rel="stylesheet" href="hotel-log.css">
+</head>
+<body>
+    <div class="web">
+        <div class="part1">
+            <div class="sun">
+                <model-viewer id="sunset" src="sun_model.glb" autoplay camera-controls disable-zoom auto-rotate shadow-intensity="1">
+                    <div class="box">
+                        <a href="hotel-sign.html" id="text">Signup</a>
+                    </div>
+                </model-viewer>
+                <model-viewer id="man" src="jack_trigger.glb" autoplay camera-controls disable-zoom auto-rotate shadow-intensity="1">
+                </model-viewer>
+            </div>
+            <div class="earth">
+                <model-viewer id="model" src="civilization_one_intro_-_earth.glb" autoplay camera-controls disable-zoom auto-rotate shadow-intensity="1">
+                    <div class="webpage">
+                        <h1>Hotel Login</h1>
+                        <form>
+                            <div class="inputbox">
+                                <label for="name">
+                                    <input type="text" name="name" id="Name" placeholder="Name">
+                                    <span id="Name_error"></span>
+                                </label>
+                            </div>
+                            <div class="inputbox">
+                                <label for="password">
+                                    <input type="password" name="password" id="pass" placeholder="Password">
+                                    <span id="pass_error"></span>
+                                </label>
+                            </div>
+                            <div class="box"><a href="#"id="forgot" >forget?password</a></div><br>
+                            <div class="inputbox">
+                                <input type="submit" value="login">
+                            </div>
+                
+                        </form>
+                    </div>
+                </div>
+                </model-viewer>
+            </div>
+        </div>
+        <div class="part2">
+            <div class="hotel">
+                <model-viewer class="model" src="jupiter_-_free_downloadable_model.glb" autoplay camera-controls disable-zoom auto-rotate shadow-intensity="1">
+                    <div class="box">
+                        <a href="rider-log.html" class="text">Rider</a>
+                    </div>
+                </model-viewer>
+            </div>
+            <div class="restro">
+                <model-viewer class="model" src="moon.glb" autoplay camera-controls disable-zoom auto-rotate shadow-intensity="1">
+                    <div class="box">
+                        <a href="restro-log.html" class="text">Restro</a>
+                    </div>
+                </model-viewer>
+            </div>
+            <div class="user">
+                <model-viewer class="model" src="cosmonaut_on_a_rocket.glb" autoplay camera-controls disable-zoom auto-rotate shadow-intensity="1">
+                    <div class="box">
+                        <a href="index.html" class="text">User</a>
+                    </div>
+                </model-viewer>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    
+</body>
+</html>

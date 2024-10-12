@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentBro</title>
+    <link rel="stylesheet" href="hotel-sign.css">
+</head>
+<body><div class="web">
+    <div class="webpage">
+        <h1>Hotel Sign up</h1>
+        <form>
+            <div class="inputbox">
+                <label for="name">
+                    <input type="text" name="name" id="Name" placeholder="Name">
+                    <span id="Name_error"></span>
+                </label>
+            </div>
+            <div class="inputbox">
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <span id="email_error"></span>
+                </label>
+            </div>
+            <div class="inputbox">
+                <label for="password">
+                    <input type="password" name="password" id="pass" placeholder="Password">
+                    <span id="pass_error"></span>
+                </label>
+            </div>
+            <div class="inputbox">
+                <label for="confirm-pass">
+                    <input type="password" name="confirm-pass" id="cpass" placeholder="Confirm Password">
+                    <span id="cpass_error"></span>
+                </label>
+            </div>
+            <div class="inputbox">
+                <input type="submit" value="Sign up">
+            </div>
+
+        </form>
+    </div>
+</div>
+<div class="sun">
+    <input id="log" type="submit" value="Login">
+</div>
+        
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <script src="hotel-sign.js"></script>
+</body>
+</html>
